@@ -1,0 +1,209 @@
+body {
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgba(80, 86, 92, 0.459);
+    height: 80px;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+header img {
+    display: inline;
+    float: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(121, 231, 47);
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+nav a:hover{
+    background-color: initial;
+}
+
+main p {
+    background-color: cyan;
+}
+
+.name1{
+    width: 100%;
+    height: auto;
+}
+
+.right{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+
+.right:hover{
+    box-shadow: 20px 20px 0 0 rgba(80, 86, 92, 0.459);
+}
+
+.right h2{
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+
+.right h2:hover{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:inset 20px 20px 10px 0 rgb(121, 231, 47);
+}
+
+.right img{
+    float: right;
+    height: 200px;
+    width: 50%;
+    margin-top: 50px;
+}
+.right p{
+    font-size: 15px;
+    display: flex;
+    position: relative;
+    height: 255px;
+    width: auto;
+    margin: 20px;
+}
+
+.left{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin: 30px 30px 30px 0px;
+    padding: 20px;
+}
+
+.left:hover{
+    box-shadow: 20px 20px 0 0 rgba(80, 86, 92, 0.459);
+}
+
+.left h2{
+    width: 100%;
+    height: 30px;
+}
+
+.left h2:hover{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:inset 20px 20px 10px 0 rgb(121, 231, 47);
+}
+
+.left img{
+    position: relative;
+    left: 0;
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
+.left p{
+    display: flex;
+    position: relative;
+    right: 0;
+    height: 280px;
+    width: auto;
+    margin: 20px;
+}
+
+.feng{
+    font-size: 15px;
+}
+
+.name2{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+.monet{
+    border: 1px solid green;
+    width: 250px;
+    height: 300px;
+    margin: 50px 20px 50px 20px;
+    float: left;
+}
+
+.monet:hover{
+    box-shadow: 10px 10px 10px 10px green;
+}
+
+.h{
+    text-align: center;
+}
+
+.img{
+    height: 70%;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.crystal{
+    border: 1px solid green;
+    width: 250px;
+    margin: 50px 20px 50px 20px;
+}
+
+.crystal:hover{
+    box-shadow: 10px 10px 10px 10px green;
+}
+
+.blingiv{
+    border: 1px solid green;
+    width: 250px;
+    margin: 50px 20px 50px 20px;
+    float: right;
+}
+
+.blingiv:hover{
+    box-shadow: 10px 10px 10px 10px green;
+}
+
+.stara{
+    text-decoration:  line-through;
+}
+
+.nova{
+    font-size: 25px;
+}
+
+.nova:hover{
+    text-decoration: underline;
+    background-color: white;
+}
+
+.name3{
+    margin: 30px; 
+    border: 1px solid green;
+    padding: 20px;
+}
+
+footer{
+    height: 40px;
+    background-color: rgba(80, 86, 92, 0.459);
+}
+
+footer  a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
